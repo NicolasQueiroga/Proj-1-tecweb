@@ -9,7 +9,7 @@ class Note:
 
 class Database:
     def __init__(self, db_name):
-        self.conn = sqlite3.connect(db_name + '.db')
+        self.conn = sqlite3.connect('db/' + db_name + '.db')
         self.conn.execute('CREATE TABLE IF NOT EXISTS note (id INTEGER PRIMARY KEY, title TEXT, content TEXT NOT NULL);')
 
     def add(self, note):
