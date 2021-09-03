@@ -139,6 +139,7 @@ html, body {
   padding: 10px;
   font-family: "Permanent Marker", cursive;
   margin: 65px 5px;
+  border-radius: 5px;
 }
 
 .card-title {
