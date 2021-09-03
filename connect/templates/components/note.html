@@ -9,8 +9,8 @@
         <input type="hidden" name="method" value="PUT">
         <input type="hidden" name="id" value="{id}">
         <div class="form-popup" id="{id}">
-            <input class="popup-title" type="text" name="titulo" value="{title}" maxlength="15">
-            <input class="popup-detail" type="text" name="detalhes" value="{details}" maxlength="30">
+            <input class="popup-title" type="text" name="titulo" value="{title}" maxlength="15" required>
+            <input class="popup-detail" type="text" name="detalhes" value="{details}" maxlength="30" required>
             <button class="update-btn2" type="submit">Update</button>
             <button class="cancel-btn" onclick="closeForm({id})" type="button">Cancel</button>
         </div>
