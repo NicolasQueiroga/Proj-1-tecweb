@@ -1,3 +1,12 @@
+function openForm() {
+  document.getElementById("updateNote").style.display = "flex";
+}
+
+function closeForm() {
+  document.getElementById("updateNote").style.display = "none";
+}
+
+
 function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);

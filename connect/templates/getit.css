@@ -138,7 +138,7 @@ html, body {
   text-align: left;
   padding: 10px;
   font-family: "Permanent Marker", cursive;
-  margin: 10px 0px;
+  margin: 65px 5px;
 }
 
 .card-title {
@@ -152,6 +152,67 @@ html, body {
   align-self: center;
   margin: 0.1rem;
 }
+
+/**/
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: -36px;
+  right: 5px;
+  top: 10px;
+  z-index: 9;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 20vh;
+  min-height: 170px;
+  background-color: white;
+  box-shadow: 0 7px 20px rgb(0 0 0 / 15%), 0 2px 3px rgb(0 0 0 / 22%);
+  padding: 15px;
+  border-radius: 8px;
+  opacity: 0.95;
+}
+
+.update-btn1, .update-btn2, .cancel-btn, .delete-btn {
+  position: relative;
+  display: block;
+  padding: 3px 15px;
+  border-width: 0;
+  outline: none;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  background-color: #f7d736;
+  transition: background-color 0.3s;
+}
+
+.update-btn1, .delete-btn {
+  margin-top: 10px;
+}
+
+.btns {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.popup-title {
+  font-size: 20px;
+  font-weight: bold;
+  width: 175px;
+  height: 30px;
+  border: none;
+}
+
+.popup-detail {
+  width: 175px;
+  height: 18px;
+  border: none;
+}
+
+/**/
 
 .card-color-1 {
   background-color: #ead3a7;

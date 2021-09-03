@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "/home/nicolas/tecweb/Proj-1-tecweb/db/"
+    ]
+}
