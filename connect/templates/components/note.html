@@ -8,16 +8,16 @@
     <form method="POST">
         <input type="hidden" name="method" value="PUT">
         <input type="hidden" name="id" value="{id}">
-        <div class="form-popup" id="updateNote">
+        <div class="form-popup" id="{id}">
             <input class="popup-title" type="text" name="titulo" value="{title}" maxlength="15">
             <input class="popup-detail" type="text" name="detalhes" value="{details}" maxlength="30">
             <button class="update-btn2" type="submit">Update</button>
-            <button class="cancel-btn" onclick="closeForm()" type="button">Cancel</button>
+            <button class="cancel-btn" onclick="closeForm({id})" type="button">Cancel</button>
         </div>
     </form>
 
     <div class="btns">
-        <button class="update-btn1" onclick="openForm()">Update</button>
+        <button class="update-btn1" onclick="openForm({id})">Update</button>
         <form method="POST" id="delete-form">
             <input type="hidden" name="method" value="DELETE">
             <input type="hidden" name="id" value="{id}">

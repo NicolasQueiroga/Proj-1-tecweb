@@ -2,7 +2,7 @@ from utils import load_data, load_template, writeNote, build_response
 import urllib
 
 import sys
-sys.path.insert(1, '/home/nicolas/tecweb/Proj-1-tecweb/db')
+sys.path.insert(1, '/home/nicolas/TecWeb/projeto-1/db')
 from database import Note, Database
 
 

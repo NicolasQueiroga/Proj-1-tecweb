@@ -1,9 +1,9 @@
-function openForm() {
-  document.getElementById("updateNote").style.display = "flex";
+function openForm(id) {
+  document.getElementById(String(id)).style.display = "flex";
 }
 
-function closeForm() {
-  document.getElementById("updateNote").style.display = "none";
+function closeForm(id) {
+  document.getElementById(String(id)).style.display = "none";
 }
 
 
