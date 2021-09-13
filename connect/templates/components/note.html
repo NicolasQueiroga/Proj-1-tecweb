@@ -11,17 +11,17 @@
         <div class="form-popup" id="{id}">
             <input class="popup-title" type="text" name="titulo" value="{title}" maxlength="15" required>
             <input class="popup-detail" type="text" name="detalhes" value="{details}" maxlength="30" required>
-            <button class="update-btn2" type="submit">Update</button>
-            <button class="cancel-btn" onclick="closeForm({id})" type="button">Cancel</button>
+            <button class="update-btn2" type="submit">Atualizar</button>
+            <button class="cancel-btn" onclick="closeForm({id})" type="button">Cancelar</button>
         </div>
     </form>
 
     <div class="btns">
-        <button class="update-btn1" onclick="openForm({id})">Update</button>
+        <button class="update-btn1" onclick="openForm({id})">Atualizar</button>
         <form method="POST" id="delete-form">
             <input type="hidden" name="method" value="DELETE">
             <input type="hidden" name="id" value="{id}">
-            <button class="delete-btn" type="submit">Delete</button>
+            <button class="delete-btn" type="submit">Deletar</button>
         </form>
     </div>
 

@@ -1,5 +1,12 @@
+var lastOpenedId = 0;
+
 function openForm(id) {
+  getElementById = document.getElementById(String(lastOpenedId));
+  if (getElementById != undefined) {
+    getElementById.style.display = "none";
+  }
   document.getElementById(String(id)).style.display = "flex";
+  lastOpenedId = id;
 }
 
 function closeForm(id) {

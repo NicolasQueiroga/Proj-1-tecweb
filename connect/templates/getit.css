@@ -193,10 +193,14 @@ html, body {
 
 .btns {
   margin-top: 20px;
-  display: flex;
+  display: none;
   justify-content: space-around;
   align-items: flex-end;
   flex-direction: row;
+}
+
+.card:hover .btns {
+  display: flex;
 }
 
 .popup-title {
