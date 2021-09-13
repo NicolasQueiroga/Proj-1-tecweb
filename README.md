@@ -1,1 +1,3 @@
-# Proj-1-tecweb
+# Projeto 1A de Tecnologias Web
+
+### Aluno -> Nicolas Maciel Queiroga - COMP
