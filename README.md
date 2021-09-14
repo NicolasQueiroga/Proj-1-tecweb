@@ -1,3 +1,4 @@
-# Projeto 1A de Tecnologias Web
+# Projeto 1A de Tecnologias Web - `COMP`
 
-### Aluno -> Nicolas Maciel Queiroga - COMP
+### Author:
+- Nicolas Maciel Queiroga
