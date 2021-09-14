@@ -2,7 +2,7 @@ from utils import load_data, load_template, writeNote, build_response
 import urllib
 
 import sys
-sys.path.insert(1, '/home/nicolas/TecWeb/projeto-1/db')
+sys.path.insert(1, '/home/nicolas/insper/4o/tecweb/projs/proj-1a/db')
 from database import Note, Database
 
 
@@ -37,4 +37,4 @@ def index(request):
         for dados in db.get_all()
     ]
     notes = '\n'.join(notes_li)
-    return build_response(load_template('index.html').format(notes=notes))
+    return build_response(load_template('pages/index.html').format(notes=notes))
