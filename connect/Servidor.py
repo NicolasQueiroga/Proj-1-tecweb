@@ -5,7 +5,7 @@ from views import index
 
 CUR_DIR = Path(__file__).parent
 
-SERVER_HOST = 'localhost'
+SERVER_HOST = '0.0.0.0'
 SERVER_PORT = 8080
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
